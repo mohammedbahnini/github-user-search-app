@@ -9,7 +9,7 @@ const initUser = {
     followers : 3938 , 
     following : 9,
     bio : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.' , 
-    avatar_url : '/public/avatar.png' , 
+    avatar_url : '/avatar.png' , 
     location : 'san francisco' , 
     twitter_username : '' , 
     html_url : '' , 
