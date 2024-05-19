@@ -8,7 +8,7 @@ const initUser = {
     public_repos : 8,
     followers : 3938 , 
     following : 9,
-    bio : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.' , 
+    bio : 'This profile has no bio' , 
     avatar_url : '/avatar.png' , 
     location : 'san francisco' , 
     twitter_username : '' , 

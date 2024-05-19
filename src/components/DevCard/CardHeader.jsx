@@ -34,7 +34,7 @@ function CardHeader(props) {
                     'text-white': isDark,
                     'text-steelblue': !isDark
                 })}>
-                    <p>{user.bio || 'No bio has been found !'}</p>
+                    <p>{user.bio}</p>
                 </div>
             </div>
 

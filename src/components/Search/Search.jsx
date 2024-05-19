@@ -23,7 +23,7 @@ function Search() {
             // call the api getuser
             setLoading(true);
             const result = await getUser(username);
-            console.log(result);
+
            
             if( result.error){
                 setError('An error occured while getting data !');
@@ -57,7 +57,7 @@ function Search() {
                     public_repos ,
                     followers   , 
                     following ,
-                    bio ,
+                    bio : bio || 'This profile has no bio' ,
                     avatar_url ,
                     location ,
                     twitter_username  ,

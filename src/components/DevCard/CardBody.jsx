@@ -9,7 +9,7 @@ function CardBody(props) {
             <p className={cn(' mt-8 text-[13px] leading-[25px] md:mt-6 md:text-[15px]' , {
                 'text-white' : isDark , 
                 'text-steelblue' : !isDark
-            })}>{user.bio || 'No bio has been found !'}</p>
+            })}>{user.bio}</p>
         </div>
     )
 }
